@@ -10,12 +10,12 @@ library(clusterProfiler)
 library(org.Mm.eg.db)
 
 # Load in the feature table
-load(file = "./mytable_feaures")
+load(file = "./mytable_features")
 
-count_table <- mytable_feaures$counts
-annotation_table <- mytable_feaures$annotation
-stat_table <- mytable_feaures$stat
-targets <- mytable_feaures$targets
+count_table <- mytable_features$counts
+annotation_table <- mytable_features$annotation
+stat_table <- mytable_features$stat
+targets <- mytable_features$targets
 
 colnames(count_table) <- c("Control_1", "Control_2", "Control_3", "KO_1", "KO_2", "KO_3")
 
