@@ -1,2 +1,5 @@
 .DS_Store
 GSE268197_multiqc_report.html
+/raw_reads
+/star_out
+/qc_reports
