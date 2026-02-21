@@ -1,5 +1,3 @@
-# These codes are taken and edited from FGT_T7_Advanced_Analysis_RNASeq_Using R
-
 library(tidyverse)
 library(DESeq2)
 library(scatterplot3d)
